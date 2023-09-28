@@ -3,9 +3,11 @@ import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Navigation from './components/Navigation';
+import Player from './components/Player';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navigation/>
       <Player/>
       <Footer/>
